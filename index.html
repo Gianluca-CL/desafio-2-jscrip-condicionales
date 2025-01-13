@@ -1,41 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafío 1 - JavaScript</title>
-    <link rel="stylesheet" href="Assets/css/estilos.css">
+    <title>Condiciones Javascript, Bienvenido a los stickers de la web</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
-
 <body>
+    <h1>Condiciones con Stickers de la web</h1>
 
-    <section>
-        <div class="card">
-            <div class="img-card"></div>
-              <h6>Laptop Gamer AMD</h6>
-              <p>Precio base: $<span class="precio-inicial"></span> </p>
-        
-              <p>Cantidad:
-                <span class="cantidad">0</span>
-                <button 
-                >+</button>
-                <button
-                >-</button>
-              </p>
-            </div>
-
+    <div id="contenedor">
+        <img id="imagen1" src="./assets/images/sticker.png" alt="Stay humble">
+        <div>
+            <img id="imagen2" src="./assets/images/sticker 1.png" alt="Mouse in web">
+            <input type="number" id="sticker1" min="0" value="0">
         </div>
-    </section>
-
-    <div class="total-section">
-        <p>Total a pagar: $<span class="valor-total"></span> </p>
+        <div>
+            <img id="imagen3" src="./assets/images/sticker 2.png" alt="WWW">
+            <input type="number" id="sticker2" min="0" value="0">
+        </div>
+        <div>
+            <img id="imagen4" src="./assets/images/sticker 3.png" alt="WWW.COM">
+            <input type="number" id="sticker3" min="0" value="0">
+        </div>
     </div>
 
-    <script src="index.js">
-      
+    <button id="calcular">Calcular</button>
+    <p id="resultado"></p>
 
-    </script>
+    <select id="digit1">
+        <option value="" disabled selected>Dígito 1</option>
+        <option value="1">1</option>
+        <option value="7">7</option>
+        <option value="9">9</option>
+    </select>
+    <select id="digit2">
+        <option value="" disabled selected>Dígito 2</option>
+        <option value="1">1</option>
+        <option value="4">4</option>
+        <option value="9">9</option>
+    </select>
+    <select id="digit3">
+        <option value="" disabled selected>Dígito 3</option>
+        <option value="1">1</option>
+        <option value="4">4</option>
+        <option value="9">9</option>
+    </select>
+    <button id="ingresar">Ingresar</button>
+    <p id="mensaje"></p>
+
+    <footer>
+        <p>Stickers de la web</p>
+    </footer>
+
+    <script src="assets/script.js"></script>
 </body>
 </html>
+
