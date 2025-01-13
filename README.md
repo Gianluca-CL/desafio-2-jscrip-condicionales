@@ -1,6 +1,6 @@
 # desafio-2-jscrip-condicionales
 ## 🔗 Links
- [Ropageeks-](https://gianluca-cl.github.io/desafio-2-jscrip-condicionales/)
+ [STickers and testing password with javascripts-](https://gianluca-cl.github.io/desafio-2-jscrip-condicionales/)
 
 ## 📫 Get in Touch
 Feel free to reach out for collaborations or inquiries:
